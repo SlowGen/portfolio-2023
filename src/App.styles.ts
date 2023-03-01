@@ -1,7 +1,13 @@
-import { css } from '@emotion/react';
+import background from './assets/background.jpg'
 
 export const styles = {
-  app: css`
-    background-color: 'purple',
-  `
+  app: {
+    margin: 0,
+    height: '100vh',
+    width: '100vw',
+    backgroundImage: `url(${background})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+  }
 }
