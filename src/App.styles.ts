@@ -9,5 +9,6 @@ export const styles = {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
+    overflow: 'hidden',
   }
 }
