@@ -5,5 +5,6 @@ export const styles = {
     border: '5px solid #635b57',
     borderRadius: '20px',
     textAlign: 'center',
+    paddingTop: '10px',
   }
 }

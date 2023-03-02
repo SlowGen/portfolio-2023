@@ -14,6 +14,7 @@ export const theme = createTheme({
     h4: {
       color: '#e6c8b8',
       fontWeight: 'lighter',
+      textTransform: 'lowercase',
     }
   }
 })
