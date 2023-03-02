@@ -1,0 +1,7 @@
+export { About } from './About'
+export { Contact } from './Contact'
+export { Content } from './Content'
+export { Gallery } from './Gallery'
+export { Header } from './Header'
+export { Main } from './Main'
+export { Projects } from './Projects'

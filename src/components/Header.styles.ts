@@ -1,14 +1,17 @@
 export const styles = {
   headerContainer: {
     height: '100px',
-    width: '100%',
-    fontFamily: 'Fira Code, monospace',
+    maxWidth: '100%',
     fontSize: '50px',
     display: 'flex',
     justifyContent: 'space-between',
+    flexDirection: 'row',
     alignItems: 'center',
     color: '#403e3c',
+    padding: '20px',
   },
-  text: {
+  headerMenu: {
+    height: '100%',
+    fontSize: '60px',
   }
 }
