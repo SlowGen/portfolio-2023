@@ -9,5 +9,11 @@ export const theme = createTheme({
         }
       }
     }
+  },
+  typography: {
+    h4: {
+      color: '#e6c8b8',
+      fontWeight: 'lighter',
+    }
   }
 })
