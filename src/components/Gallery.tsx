@@ -1,3 +1,3 @@
 export const Gallery = () => {
-  return <div></div>
+  return <div>gallery</div>
 }
