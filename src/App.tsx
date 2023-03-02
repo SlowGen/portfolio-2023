@@ -1,10 +1,14 @@
 import { Box, ThemeProvider } from '@mui/material';
 import { theme } from './theme'
 import { styles } from './App.styles';
-import { Content, Header } from './components';
+import { Header, Main, About, Contact, Gallery, Projects } from './components';
 import { useState } from 'react';
 
 export type ContentType = 'main' | 'about' | 'projects' | 'gallery' | 'contact'
+
+export interface ContentProps {
+  display: (selection: ContentType) => void
+}
 
 export const App = () => {
 
@@ -19,7 +23,16 @@ export const App = () => {
     <Box sx={styles.app}>
       <ThemeProvider theme={theme}>
         <Header display={changeDisplayedContent}/>
-        <Content display={displayedContent} />
+        {displayedContent === 'main' &&
+          <Main display={changeDisplayedContent}/>}
+        {displayedContent === 'about' &&
+          <About display={changeDisplayedContent}/>}
+        {displayedContent === 'projects' &&
+          <Projects display={changeDisplayedContent}/>}
+        {displayedContent === 'gallery' &&
+          <Gallery display={changeDisplayedContent}/>}
+        {displayedContent === 'contact' &&
+          <Contact display={changeDisplayedContent}/>}
       </ThemeProvider>
     </Box>
   )
