@@ -10,7 +10,18 @@ export const styles = {
     display: 'flex',
     flexDirection: 'row',
   },
+  text: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    flexDirection: 'column',
+  },
   img: {
     paddingLeft: '10px',
-  }
+  },
+  nav: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 }
