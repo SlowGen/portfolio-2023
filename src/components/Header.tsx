@@ -36,7 +36,7 @@ export const Header = (props: HeaderProps) => {
           loop: true,
         }}
       />
-      <Box sx={styles.headerMenu}>
+      <Box sx={styles.menuContainer}>
         <IconButton
           aria-controls={open ? 'basic-menu' : undefined}
           aria-haspopup='true'
@@ -49,7 +49,11 @@ export const Header = (props: HeaderProps) => {
           anchorEl={anchor}
           open={open}
           onClose={handleClose}
-          MenuListProps={{'aria-labelledby': 'basic-button'}}
+          MenuListProps={{'aria-labelledby': 'basic-button', sx: {
+            backgroundColor: 'transparent'
+          }
+        }}
+          sx={styles.menu}
         >
           <MenuItem onClick={() => handleSelect('main')}>
             Main

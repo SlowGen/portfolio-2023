@@ -10,8 +10,14 @@ export const styles = {
     color: '#403e3c',
     padding: '20px',
   },
-  headerMenu: {
+  menuContainer: {
     height: '100%',
     fontSize: '60px',
+  },
+  menu: {
+    '&.MuiPaper-root': {
+      backgroundColor: 'transparent',
+    },
+    color: '#403e3c',
   }
 }

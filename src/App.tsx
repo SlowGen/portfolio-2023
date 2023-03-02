@@ -1,12 +1,14 @@
-import { Box } from '@mui/material';
+import { Box, ThemeProvider } from '@mui/material';
+import { theme } from './theme'
 import { styles } from './App.styles';
-import { Content } from './components/Content';
-import { Header } from './components/Header';
+import { Content, Header } from './components';
 import { useState } from 'react';
 
 export type ContentType = 'main' | 'about' | 'projects' | 'gallery' | 'contact'
 
 export const App = () => {
+
+
   const [displayedContent, setDisplayedContent] = useState<ContentType>('main');
 
   const changeDisplayedContent = (display: ContentType) => {
@@ -15,8 +17,10 @@ export const App = () => {
 
   return (
     <Box sx={styles.app}>
-      <Header display={changeDisplayedContent}/>
-      <Content display={displayedContent} />
+      <ThemeProvider theme={theme}>
+        <Header display={changeDisplayedContent}/>
+        <Content display={displayedContent} />
+      </ThemeProvider>
     </Box>
   )
 }

@@ -8,6 +8,7 @@ interface ContentProps {
 
 export const Content = (props: ContentProps) => {
   const { display } = props;
+
   return (
     <Box>
       {display === 'main' && <Main />}
