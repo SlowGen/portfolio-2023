@@ -3,7 +3,7 @@ export const styles = {
     marginLeft: '75px',
     marginRight: '75px',
     padding: '10px',
-    backgroundColor: '#aba29d',
+    backgroundColor: 'rgba(171, 162, 157, 0.5)',
     borderRadius: '20px',
   },
   aboutContent: {

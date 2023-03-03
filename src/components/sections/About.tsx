@@ -1,10 +1,12 @@
-import { Box, Typography } from "@mui/material"
+import { Box, Button, Typography } from "@mui/material"
 import { ContentProps } from "../../App"
 import { styles } from "./About.styles"
 import selfie from '../../assets/assets/photos/selfie.jpg'
 import { SectionCard } from "../SectionCard"
 
 export const About = (props: ContentProps) => {
+  const { display } = props;
+
   return (
     <Box sx={styles.aboutContainer}>
       <Typography variant='h5'>About Me...</Typography>
@@ -25,10 +27,18 @@ export const About = (props: ContentProps) => {
         </Box>
       </Box>
       <Box sx={styles.nav}>
-        <SectionCard section="main"/>
-        <SectionCard section="projects"/>
-        <SectionCard section="gallery"/>
-        <SectionCard section="contact"/>
+        <Button onClick={() => display('main')}>
+          <SectionCard section="main"/>
+        </Button>
+        <Button onClick={() => display('projects')}>
+          <SectionCard section="projects"/>
+        </Button>
+        <Button onClick={() => display('gallery')}>
+          <SectionCard section="gallery"/>
+        </Button>
+        <Button onClick={() => display('contact')}>
+          <SectionCard section="contact"/>
+        </Button>
       </Box>
     </Box>
   )
