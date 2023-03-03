@@ -1,7 +1,7 @@
 import { Box, Button, Typography } from "@mui/material"
 import { ContentProps } from "../../App"
 import { styles } from "./About.styles"
-import selfie from '../../assets/assets/photos/selfie.jpg'
+import selfie from '../../assets/photos/selfie.jpg'
 import { SectionCard } from "../SectionCard"
 
 export const About = (props: ContentProps) => {
