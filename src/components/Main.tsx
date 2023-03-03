@@ -9,7 +9,7 @@ export const Main = (props: ContentProps) => {
   return (
     <Box sx={styles.mainContainer}>
       {sections.map((section) =>
-            <Button onClick={() => display(section as ContentType)}>
+            <Button onClick={() => display(section as ContentType)} key={`${section}button`}>
               <SectionCard section={section} key={section}/>
             </Button>
       )}
