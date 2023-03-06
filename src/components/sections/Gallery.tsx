@@ -19,7 +19,7 @@ import two from '../../assets/photos/two.jpg';
 import west from '../../assets/photos/west.jpg'
 import { useEffect, useState } from "react";
 
-const photos = [aliens, bernie, dirty, east, gridmat, hubble, north, selfee, selfie, skylight, south, turtle, two, west]
+const photos = [turtle, bernie, dirty, east, gridmat, hubble, north, selfee, selfie, skylight, south, two, west, aliens]
 
 export const Gallery = (props: ContentProps) => {
   const { display } = props;
