@@ -31,7 +31,7 @@ export const Gallery = (props: ContentProps) => {
   }
 
   useEffect(() => {
-    if (imgIndex > photos.length) setImageIndex(0)
+    if (imgIndex > photos.length -1) setImageIndex(0)
     setCurrentImage(photos[imgIndex])
     const changeInterval = setTimeout(() => {
       setImageIndex(imgIndex + 1)
