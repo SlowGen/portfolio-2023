@@ -20,6 +20,9 @@ export const styles = {
   card: {
     minHeight: '150px',
     width: '400px',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   text: {
     display: 'flex',
