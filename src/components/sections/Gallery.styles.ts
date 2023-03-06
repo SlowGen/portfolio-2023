@@ -12,6 +12,9 @@ export const styles = {
     gridGap: '30px',
     justifyContent: 'center',
     alignItems: 'center',
+    paddingRight: '30px',
+    paddingLeft: '30px',
+    justifySelf: 'center',
 
   },
   card: {
@@ -22,6 +25,7 @@ export const styles = {
     display: 'flex',
     justifyContent: 'space-between',
     flexDirection: 'column',
+    maxWidth: '400px',
   },
   img: {
     paddingLeft: '10px',
