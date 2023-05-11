@@ -12,15 +12,6 @@ export const styles = {
     alignItems: 'center',
 
   },
-  card: {
-    minHeight: '150px',
-    width: '400px',
-  },
-  text: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    flexDirection: 'column',
-  },
   icon: {
     fontSize: '50px',
     padding: '30px',

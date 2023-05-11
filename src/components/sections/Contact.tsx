@@ -40,7 +40,6 @@ export const Contact = (props: ContentProps) => {
           <SectionCard section="gallery"/>
         </Button>
       </Box>
-      <iframe name="popup" title="SlowGen" height={0} width={0} />
     </Box>
   )
 }
