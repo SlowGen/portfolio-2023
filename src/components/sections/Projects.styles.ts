@@ -1,10 +1,9 @@
 export const styles = {
   projectsContainer: {
-    marginLeft: '75px',
-    marginRight: '75px',
     padding: '10px',
     backgroundColor: 'rgba(171, 162, 157, 0.5)',
     borderRadius: '20px',
+    maxWidth: '1000px',
   },
   projectsContent: {
     display: 'grid',

@@ -23,6 +23,7 @@ export const App = () => {
     <Box sx={styles.app}>
       <ThemeProvider theme={theme}>
         <Header display={changeDisplayedContent}/>
+        <Box sx={styles.contentBox}>
         {displayedContent === 'main' &&
           <Main display={changeDisplayedContent}/>}
         {displayedContent === 'about' &&
@@ -33,6 +34,7 @@ export const App = () => {
           <Gallery display={changeDisplayedContent}/>}
         {displayedContent === 'contact' &&
           <Contact display={changeDisplayedContent}/>}
+        </Box>
       </ThemeProvider>
     </Box>
   )

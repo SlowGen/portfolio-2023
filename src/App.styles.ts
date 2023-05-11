@@ -10,5 +10,9 @@ export const styles = {
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
     overflow: 'hidden',
+  },
+  contentBox: {
+    display: 'flex',
+    justifyContent: 'center'
   }
 }
