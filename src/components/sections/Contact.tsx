@@ -26,6 +26,13 @@ export const Contact = (props: ContentProps) => {
           <DescriptionOutlined sx={styles.icon}/>
         </Link>
       </Box>
+      <Box sx={styles.contactContent}>
+      <Link href="https://sessionize.com/kali/" color='inherit' target='_blank' rel='noopener'>
+        <Typography variant="subtitle1">
+          Speaking Engagements
+        </Typography>
+      </Link>
+      </Box>
       <Box sx={styles.nav}>
         <Button onClick={() => display('main')}>
           <SectionCard section="main"/>
@@ -40,6 +47,7 @@ export const Contact = (props: ContentProps) => {
           <SectionCard section="gallery"/>
         </Button>
       </Box>
+
     </Box>
   )
 }
