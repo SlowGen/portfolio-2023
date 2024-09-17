@@ -22,7 +22,10 @@ export const About = (props: ContentProps) => {
             Since then, I have continued to expand my knowledge and expertise, diving into new frameworks, languages, and technologies. I spent two years working on video capture and playback, and have also enjoyed tinkering with several exciting side projects.
           </Typography>
           <Typography variant="body2">
-            Overall, my journey has been one of dedication, hard work, and a relentless pursuit of knowledge. I am thrilled to be a part of the ever-evolving tech industry and am excited to see where my skills and passion take me next.
+            Currently, I am working as a Senior Flutter Engineer at Kasheesh. I have been passionate about working with Flutter for many years and was thrilled to join a team that not only used my favorite stack, but also was willing to think outside the box and explore new possibilities. I have recently begun doing speaking engagements and I'm excited to see where it goes!!
+          </Typography>
+          <Typography variant="body2">
+            Overall, my journey has been one of dedication, hard work, and a relentless pursuit of knowledge. I am thrilled to be a part of the ever-evolving tech industry and can't wait to see where my skills and passion take me next.
           </Typography>
         </Box>
         <Box sx={styles.img}>
