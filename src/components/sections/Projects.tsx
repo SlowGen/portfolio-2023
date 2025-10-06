@@ -1,4 +1,4 @@
-import { Box, Button, Card, CardContent, Link, Typography } from "@mui/material"
+import { Box, Button, Card, CardContent, Divider, Link, Typography } from "@mui/material"
 import { ContentProps } from "../../App"
 import { styles } from "./Projects.styles"
 import { SectionCard } from "../SectionCard"
@@ -14,16 +14,38 @@ export const Projects = (props: ContentProps) => {
             <Link
               variant="subtitle1"
               color={'inherit'}
-              href="https://www.kasheesh.co"
+              href="https://youtube.com/playlist?list=PLsUxGwS800yXFNiS08rLEO1B2uoFEzs_f&si=yImIbFqjg83gA2LZ"
               underline="hover"
               target="_blank"
               rel="noreferrer"
             >
-              Kasheesh
+              FlutterCon USA Speaker
             </Link>
             <Typography variant="body2" sx={styles.text}>
-              As a Senior Flutter Engineer and sole member of my team, I am responsible for the development, testing and deployment of all platforms. This includes Android, iOS, and a browser extension for Chrome and Safari.
+              As a two time speaker at FlutterCon, I have established subject matter expertise with Flutter Web, particularly in the usage of js_interop and creating browser extensions. Be sure to see the demo code in my Github.
             </Typography>
+            <Divider/>
+            <Link
+              variant="body2"
+              color={'inherit'}
+              href="https://github.com/slowGen/bookmarks-demo"
+              underline="hover"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Browser Extension Demo
+            </Link>
+            {' '}||{' '}
+            <Link
+              variant="body2"
+              color={'inherit'}
+              href="https://github.com/slowGen/trex"
+              underline="hover"
+              target="_blank"
+              rel="noreferrer"
+            >
+              js_interop Demo
+            </Link>
           </CardContent>
         </Card>
       <Card sx={styles.card}>
@@ -31,16 +53,17 @@ export const Projects = (props: ContentProps) => {
             <Link
               variant="subtitle1"
               color={'inherit'}
-              href="https://github.com/slowGen/bookmarks-demo/"
+              href="https://flutteristas.org/flutteristas-conference/2025"
               underline="hover"
               target="_blank"
               rel="noreferrer"
             >
-              Flutter Browser Extension Demo
+              Flutteristas Conference 2025
             </Link>
             <Typography variant="body2" sx={styles.text}>
-              As one of the very few Flutter developers using browser extensions as a supplement to mobile and web platforms, I created a demo to show how it can be done.
+              As the Lead Project Manager, I oversaw a group of 30 women and non-binary Flutter enthusiasts in producing a global virtual conference showcasing talks from the Flutterista community.
             </Typography>
+            <br/>
           </CardContent>
         </Card>
         <Card sx={styles.card}>
@@ -48,15 +71,15 @@ export const Projects = (props: ContentProps) => {
             <Link
               variant="subtitle1"
               color={'inherit'}
-              href="http://www.screencastify.com"
+              href="https://www.linkedin.com/in/kali-nfn/"
               underline="hover"
               target="_blank"
               rel="noreferrer"
             >
-              Screencastify
+              Work History
             </Link>
             <Typography variant="body2" sx={styles.text}>
-              Working for Screencastify, I contributed heavily to the extension (manifest v2 and v3) as well as other features within the web app. Specifically, Questions and Viewer Analytics.
+              With a storied career spanning early web development, NYC hospitality, and modern startups. I have earned expertise in creating niche, greenfield applications soving complex and interesting business problems.
             </Typography>
           </CardContent>
         </Card>
