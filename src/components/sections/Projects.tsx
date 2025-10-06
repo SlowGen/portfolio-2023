@@ -14,6 +14,40 @@ export const Projects = (props: ContentProps) => {
             <Link
               variant="subtitle1"
               color={'inherit'}
+              href="https://www.kasheesh.co"
+              underline="hover"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Kasheesh
+            </Link>
+            <Typography variant="body2" sx={styles.text}>
+              As a Senior Flutter Engineer and sole member of my team, I am responsible for the development, testing and deployment of all platforms. This includes Android, iOS, and a browser extension for Chrome and Safari.
+            </Typography>
+          </CardContent>
+        </Card>
+      <Card sx={styles.card}>
+          <CardContent>
+            <Link
+              variant="subtitle1"
+              color={'inherit'}
+              href="https://github.com/slowGen/bookmarks-demo/"
+              underline="hover"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Flutter Browser Extension Demo
+            </Link>
+            <Typography variant="body2" sx={styles.text}>
+              As one of the very few Flutter developers using browser extensions as a supplement to mobile and web platforms, I created a demo to show how it can be done.
+            </Typography>
+          </CardContent>
+        </Card>
+        <Card sx={styles.card}>
+          <CardContent>
+            <Link
+              variant="subtitle1"
+              color={'inherit'}
               href="http://www.screencastify.com"
               underline="hover"
               target="_blank"
@@ -23,40 +57,6 @@ export const Projects = (props: ContentProps) => {
             </Link>
             <Typography variant="body2" sx={styles.text}>
               Working for Screencastify, I contributed heavily to the extension (manifest v2 and v3) as well as other features within the web app. Specifically, Questions and Viewer Analytics.
-            </Typography>
-          </CardContent>
-        </Card>
-        <Card sx={styles.card}>
-          <CardContent>
-            <Link
-              variant="subtitle1"
-              color={'inherit'}
-              href="https://github.com/ChecksOn-Me/merchant"
-              underline="hover"
-              target="_blank"
-              rel="noreferrer"
-            >
-              ChecksOn.Me
-            </Link>
-            <Typography variant="body2" sx={styles.text}>
-              ChecksOn.Me was my pandemic pet project. Bringing mobile payments to every day bars and restaurants without the heavy costs associated with traditional POS systems.
-            </Typography>
-          </CardContent>
-        </Card>
-        <Card sx={styles.card}>
-          <CardContent>
-            <Link
-                variant="subtitle1"
-                color={'inherit'}
-                href="https://github.com/SlowGen/Poolhouse-Flutter"
-                underline="hover"
-                target="_blank"
-                rel="noreferrer"
-            >
-              PoolHouse
-            </Link>
-            <Typography variant="body2" sx={styles.text}>
-              PoolHouse was my first adventure into mobile dev. First built in React Native as part of a school project, then rebuilt in Flutter and released to Google Play.
             </Typography>
           </CardContent>
         </Card>
